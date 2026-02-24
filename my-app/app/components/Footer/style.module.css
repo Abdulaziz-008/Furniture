@@ -1,0 +1,23 @@
+.footerWrapper{
+    width: 60%;
+    height: 381px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footerTitle{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    padding-top: 150px;
+}
+
+.footerText{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 20px;
+}

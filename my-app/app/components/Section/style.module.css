@@ -1,0 +1,49 @@
+.sectionWrapper{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.section1{
+    width: 50%;
+    height: 400px;
+    margin-top: 150px;
+    font-weight: 400;
+}
+
+.sectionTitle, .sectionComment, .sectionBtn{
+    width: 60%;
+    margin: 0px auto;
+}
+
+.sectionTitle h1{
+    width: 376px;
+    font-size: 64px;
+    line-height: 76px;
+}
+
+.sectionComment p{
+    width: 523px;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+.sectionBtn button{
+    width: 154px;
+    height: 60px;
+    margin-top: 50px;
+    background-color: #E9672B;
+    border-radius: 30px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.section2{
+    width: 50%;
+}
+
+.image{
+    width: 730px;
+    margin-left: 30px;
+}

@@ -1,0 +1,29 @@
+.navContainer{
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+}
+.navWrapper{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.navLeft{
+    width: 50%;
+}
+.navLeft ul{
+    display: flex;
+    gap: 40px;
+    margin: 33px 100px;
+}
+
+.navRight{
+    width: 50%;
+}
+.navRight ul{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin: 33px auto;
+}
