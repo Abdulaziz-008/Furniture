@@ -30,7 +30,11 @@
 
 .cardsWrapper h1{
     margin-top: 15px;
-  
+}
+
+.cardBlog1, .cardBlog2{
+    display: flex;
+    gap: 55px;
 }
 
 .card1, .card2, .card3, .card4{
@@ -66,4 +70,31 @@
     border-radius: 4px;
     border: 2px solid #DE4333;
     box-shadow: #AF4920 10px 10px ;
+}
+
+.cardsWrapper img{
+    width: 100%;
+    height: auto;
+}
+
+/* 🔹 Responsive Mobile */
+@media screen and (max-width: 1200px){
+    .cardsBackground{
+        height: auto;
+    }
+
+    .cardsWrapper{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardBlog1, .cardBlog2{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .picWrapper{
+        height: auto;
+    }
 }

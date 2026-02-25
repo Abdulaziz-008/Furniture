@@ -12,7 +12,7 @@
 }
 
 .sectionTitle, .sectionComment, .sectionBtn{
-    width: 60%;
+    width: 68%;
     margin: 0px auto;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .sectionComment p{
-    width: 523px;
+    /* width: 523px; */
     font-size: 18px;
     line-height: 28px;
     margin-top: 20px;
@@ -46,4 +46,36 @@
 .image{
     width: 730px;
     margin-left: 30px;
+}
+
+@media screen and (max-width: 1350px){
+    .sectionWrapper{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .section1{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .sectionTitle, .sectionTitle h1{
+        width: 100%;
+    }
+
+    .sectionComment{
+        margin-top: 40px;
+    }
+
+    .section2{
+        width: 75%;
+        margin: 0px auto;
+    }
+
+    .image{
+        width: 90%;
+    }
 }
